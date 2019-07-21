@@ -11,6 +11,29 @@
 
     <!-- My own stylesheet -->
     <link href="style.css" rel="stylesheet">
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+
 </head>
 <body>
 <!-- Navigation -->
@@ -21,7 +44,28 @@
   <li><a href="upload.html">Memories</a></li>
 </ul>
 
-Pictures
+<h1>Pictures</h1>
+
+<div class="gallery">
+    <img src="washington.jpg" alt="Image of Jamie" width="600" height="400">
+  <div class="desc">Jamie and Lisa in Washington</div>
+</div>
+
+<div class="gallery">
+    <img src="incredibles.jpg" alt="Image of Jamie" width="600" height="400">
+  <div class="desc">Magical day with Kate</div>
+</div>
+
+<div class="gallery">
+    <img src="magickingdom.jpg" alt="Image of Jamie" width="600" height="400">
+  <div class="desc">Jamie and friends in front of MK Castle</div>
+</div>
+
+<div class="gallery">
+    <img src="dinnerdate.jpg" alt="Image of Jamie" width="600" height="400">
+  <div class="desc">Jamie and Alex Dinner Date</div>
+</div>
+
+
 </body>
 </html>
-
